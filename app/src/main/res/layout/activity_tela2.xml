@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nova"
+    tools:context=".Tela2Activity">
+
+
+        <Button
+            android:id="@+id/botao1"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:text="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image1" />
+
+        <Button
+            android:id="@+id/botao2"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="20dp"
+            android:text="2"
+            app:layout_constraintStart_toStartOf="@+id/botao1"
+            app:layout_constraintTop_toBottomOf="@+id/image2" />
+
+        <Button
+            android:id="@+id/botao3"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="152dp"
+            android:layout_marginTop="20dp"
+            android:text="3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image3" />
+
+        <Button
+            android:id="@+id/botao4"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:text="4"
+            app:layout_constraintStart_toEndOf="@+id/botao3"
+            app:layout_constraintTop_toBottomOf="@+id/image4" />
+
+        <Button
+            android:id="@+id/botao5"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="288dp"
+            android:layout_marginTop="20dp"
+            android:text="5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image5" />
+
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="61dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/image4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/vermelha" />
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="61dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="180dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/azul" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="61dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="84dp"
+            android:layout_marginTop="180dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/verde" />
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="61dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="180dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/laranja" />
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="61dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="152dp"
+            android:layout_marginTop="180dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/amarela" />
+
+        <TextView
+            android:id="@+id/Score"
+            android:layout_width="98dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="23dp"
+            android:text="az"
+            android:textColor="#ffffff"
+            android:textSize="10pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.164"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Score1"
+            android:layout_width="98dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="8dp"
+            android:text="ve"
+            android:textColor="#ffffff"
+            android:textSize="10pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.007"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Score2"
+            android:layout_width="98dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="136dp"
+            android:layout_marginEnd="24dp"
+            android:text="am"
+            android:textColor="#ffffff"
+            android:textSize="10pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.163"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Score3"
+            android:layout_width="98dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="92dp"
+            android:layout_marginEnd="24dp"
+            android:text="la"
+            android:textColor="#ffffff"
+            android:textSize="10pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.651"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Score4"
+            android:layout_width="98dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="24dp"
+            android:text="ver"
+            android:textColor="#ffffff"
+            android:textSize="10pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.647"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Score_Tot"
+            android:layout_width="98dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="144dp"
+            android:layout_marginEnd="24dp"
+            android:text="Tot:"
+            android:textColor="#ffffff"
+            android:textSize="10pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.651"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_cadastrar"
+            android:layout_width="117dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="#ffff"
+            android:text="Entrar"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
